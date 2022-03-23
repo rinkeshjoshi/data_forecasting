@@ -27,7 +27,7 @@ from prophet.plot import plot_plotly, plot_components_plotly
 import plotly.io as pio
 pio.renderers.default='browser'
 
-file_name = str("C:/Users/rinke/OneDrive/Desktop/Carleton/3_Semester_Winter2022/DATA5000/Final_Project/python_scripts/output_files_temp/"+"daily_ottawa_6105976_final_2021.csv")
+file_name = str("data_forecasting/daily_ottawa_6105976_final_2021.csv")
 data_frame = pd.read_csv(file_name)
 data_frame = data_frame.set_index(["Year"])
 #data_frame.head()
